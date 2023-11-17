@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MouseCamLook : MonoBehaviour
 {
+
     public float mouseSensitivity = 100f;
     public Transform playerBody;
     float xRotation = 0f;
+
+
 
     void Start()
     {
